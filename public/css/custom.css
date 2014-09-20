@@ -1,17 +1,24 @@
 body {
 	padding-top: 70px;
 	padding-bottom: 60px;
-	background: url('/img/bg-pic.jpg') no-repeat left top fixed;
 	font-family: 'Montserrat', sans-serif;
+	background: url('/img/bg-pic.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 h1 {
 	font-family: 'Bilbo Swash Caps', cursive;
 	font-size: 300%;
 }
 .spacer-top {
-	padding-top: 150px;
+	padding-top: 100px;
 }
-.floatimg {
+.float-img {
 	float: left;
 	padding: 5px;
 }
