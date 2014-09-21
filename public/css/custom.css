@@ -1,15 +1,21 @@
 body {
-	padding-top: 70px;
+	/*padding-top: 70px;*/
 	padding-bottom: 60px;
 	font-family: 'Montserrat', sans-serif;
-	background: url('/img/bg-pic.jpg');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: fixed;
+	background: url('/img/bg-pic.jpg') no-repeat top left fixed;
+	height: 100%;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+}
+.fixed-bg {
+	background: url('/img/bg-pic.jpg') no-repeat top left fixed;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	top: 0;
 }
 h1 {
 	font-family: 'Bilbo Swash Caps', cursive;
