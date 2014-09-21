@@ -14,19 +14,15 @@ h1 {
   font-family: 'Bilbo Swash Caps', cursive;
   font-size: 250%;
 }
-.script {
+h1 .font-bride {
   font-family: 'Bilbo Swash Caps', cursive;
-  font-size: 100%;
+  font-size: 175%;
 }
-.bride-font {
-  font-family: 'Bilbo Swash Caps', cursive;
-  font-size: 500%;
-}
-.groom-font {
+h1 .font-groom {
   font-family: 'Lato', sans-serif;
-  font-size: 400%;
+  font-size: 125%;
 }
-.heart-img {
+.img-heart {
   padding-bottom: 0px;
 }
 .fixed-bg {
