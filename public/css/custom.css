@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat|Bilbo+Swash+Caps|Lato);
  body {
-  /*padding-top: 70px;*/
+  padding-top: 70px;
   padding-bottom: 60px;
   font-family: 'Montserrat', sans-serif;
   background: url('/img/bg-pic.jpg') no-repeat top left fixed;
@@ -29,6 +29,11 @@ p {
 .img-heart {
   padding-bottom: 0px;
 }
+.img-limit {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
 .fixed-bg {
   background: url('/img/bg-pic.jpg') no-repeat top left fixed;
   position: fixed;
@@ -39,6 +44,10 @@ p {
 }
 .spacer-top {
   padding-top: 100px;
+}
+.spacer-bottom {
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 .float-img {
   float: left;
