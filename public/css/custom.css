@@ -1,50 +1,66 @@
-body {
-	/*padding-top: 70px;*/
-	padding-bottom: 60px;
-	font-family: 'Montserrat', sans-serif;
-	background: url('/img/bg-pic.jpg') no-repeat top left fixed;
-	height: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-}
-.fixed-bg {
-	background: url('/img/bg-pic.jpg') no-repeat top left fixed;
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	z-index: -1;
-	top: 0;
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Bilbo+Swash+Caps|Lato);
+ body {
+  /*padding-top: 70px;*/
+  padding-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+  background: url('/img/bg-pic.jpg') no-repeat top left fixed;
+  height: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 h1 {
-	font-family: 'Bilbo Swash Caps', cursive;
-	font-size: 300%;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 250%;
+}
+.script {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 100%;
+}
+.bride-font {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 500%;
+}
+.groom-font {
+  font-family: 'Lato', sans-serif;
+  font-size: 400%;
+}
+.heart-img {
+  padding-bottom: 0px;
+}
+.fixed-bg {
+  background: url('/img/bg-pic.jpg') no-repeat top left fixed;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
 }
 .spacer-top {
-	padding-top: 100px;
+  padding-top: 100px;
 }
 .float-img {
-	float: left;
-	padding: 5px;
+  float: left;
+  padding: 5px;
 }
 .transparent-dark {
-	color: #fff;
-	border-width: 0px;
-	-webkit-box-shadow: 0px 0px;
-	box-shadow: 0px 0px;
-	background-color: rgba(0, 0, 0, 0.70);
-	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  color: #fff;
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0.70);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 .transparent-light {
-	color: #fff;
-	border-width: 0px;
-	-webkit-box-shadow: 0px 0px;
-	box-shadow: 0px 0px;
-	background-color: rgba(0, 0, 0, 0.20);
-	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  color: #fff;
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0.20);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
