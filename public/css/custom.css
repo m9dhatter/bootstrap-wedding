@@ -22,6 +22,10 @@ h1 .font-groom {
   font-family: 'Lato', sans-serif;
   font-size: 125%;
 }
+h4 .script {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 175%;
+}
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 110%;
@@ -73,13 +77,13 @@ p {
 .vert-responsive-iframe-container {
   position: relative;
   padding-bottom: 150%;
-  padding-top: 30px;
+  padding-top: 50%;
   height: 0;
   overflow: hidden;
 }
 .responsive-iframe-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 50%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -89,7 +93,6 @@ p {
 .vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
   position: absolute;
-  padding: 10px;
   top: 0;
   left: 0;
   width: 100%;
